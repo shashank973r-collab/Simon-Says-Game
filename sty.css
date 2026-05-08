@@ -46,3 +46,7 @@ h3{
 body{
     background-color:lightcyan;
 }
+button{
+    display:block;
+    margin:auto;
+}
