@@ -19,7 +19,16 @@ setTimeout(function()
 {btn.classList.remove("flash")
 },250);
 }
+let startbtn = document.querySelector("#start");
 
+startbtn.addEventListener("click", function(){
+
+    if(started == false){
+        started = true;
+        levelup();
+    }
+
+});
 
 function levelup(){
     userseq=[];
